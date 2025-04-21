@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "693052659676",
+    "project_id": "lojajaquelineandrade-803e7",
+    "storage_bucket": "lojajaquelineandrade-803e7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693052659676:android:d91a1619adc4cfa3452119",
+        "android_client_info": {
+          "package_name": "com.example.lojajaqueline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyAstndjZSbukFd9mxMRHA1XSjva0Z0f0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693052659676:android:ee109eaa94f95077452119",
+        "android_client_info": {
+          "package_name": "com.example.vitrine_virtual"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyAstndjZSbukFd9mxMRHA1XSjva0Z0f0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693052659676:android:6d86d62280796565452119",
+        "android_client_info": {
+          "package_name": "com.loja.jaquelineandrade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyAstndjZSbukFd9mxMRHA1XSjva0Z0f0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
