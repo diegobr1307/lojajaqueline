@@ -45,16 +45,16 @@ Sistema PHP/MySQL completo com autenticação 2FA.
 
 ## 📁 Estrutura do Projeto
 
--lojajaqueline/
--├── public/           # Raiz do servidor web
--│   ├── index.php
--│   ├── login.php
--│   ├── backup.php
--│   └── banco_example.sql
--├── config/
--│   └── config.example.php  # COPIE para config.php
--├── src/              # Backend
--└── README.md
+-lojajaqueline/<br>
+-├── public/           # Raiz do servidor web <br>
+-│   ├── index.php<br>
+-│   ├── login.php<br>
+-│   ├── backup.php<br>
+-│   └── banco_example.sql<br>
+-├── config/<br>
+-│   └── config.example.php  # COPIE para config.php<br>
+-├── src/              # Backend<br>
+-└── README.md<br>
 
 ## 🖥️ Tecnologias
 # PHP 8+ | MySQL | PDO | Bootstrap 5
