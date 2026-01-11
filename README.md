@@ -45,16 +45,29 @@ Sistema PHP/MySQL completo com autenticação 2FA.
 
 ## 📁 Estrutura do Projeto
 
--lojajaqueline/<br>
--├── public/           # Raiz do servidor web <br>
--│   ├── index.php<br>
--│   ├── login.php<br>
--│   ├── backup.php<br>
--│   └── banco_example.sql<br>
--├── config/<br>
--│   └── config.example.php  # COPIE para config.php<br>
--├── src/              # Backend<br>
--└── README.md<br>
+lojajaqueline/                    <br>
+│   ├── login.php                 <br>
+│   ├── logout.php                <br>
+│   ├── backup.php                <br>
+│   ├── index.html                <br>
+├── README.md                     <br>
+├── .gitignore                    <br>
+├── config/                       <br>
+    │   └── config.php        <br>
+├── lib/                          <br>
+    │   └── GoogleAuthenticator.php   <br>
+├── public/                       <br>
+    │   ├── index.php                 <br>
+    │   ├── pedido_cancelar.php       <br>
+    │   ├── pedido_finalizar.php      <br>
+    │   ├── pedido_list.php           <br>
+    │   ├── itens_pedido.php          <br>
+    │   └── produtos_*.php            <br>
+└── src/                          <br>
+    ├── helpers.php               <br>
+    ├── produto_repository.php    <br>
+    └── auth_produ_repository.php <br>
+
 
 ## 🖥️ Tecnologias
  PHP 8+ | MySQL | PDO | Bootstrap 5<br>
