@@ -22,7 +22,7 @@ cp config/config.example.php config/config.php
 
 text
 **Edite** `login.php`,`config/config.php` e `backup.php`:
-```php
+
 $host = 'HOST'; 
 $dbname = 'NOME_DO_BANCO';
 $user = 'SEU_USUARIO';
