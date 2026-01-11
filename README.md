@@ -13,35 +13,35 @@ Sistema PHP/MySQL completo com autenticação 2FA.
 
 ## 1. Configurar banco
 
-# 🗄️ Banco de teste incluído
+ 🗄️ Banco de teste incluído
 
-# **public/banco_example.sql**:
+ **public/banco_example.sql**:
 
 ## 2. Configurar credenciais
 
-# **Edite** `login.php`,`config/config.php` e `backup.php`:
+ **Edite** `login.php`,`config/config.php` e `backup.php`:
 
-# $host = 'HOST'; 
-# $dbname = 'NOME_DO_BANCO';
-# $user = 'SEU_USUARIO';
-# $pass = 'SUA_SENHA_AQUI';
+ $host = 'HOST'; <br>
+ $dbname = 'NOME_DO_BANCO';<br>
+ $user = 'SEU_USUARIO';<br>
+ $pass = 'SUA_SENHA_AQUI';<br>
 
-# Em login.php apontar servidor web
-# Document Root → /caminho/para/public/
-# https://seudominio.com/login.php
+ Em login.php apontar servidor web<br>
+ Document Root → /caminho/para/public/<br>
+ https://seudominio.com/login.php<br>
 
 # 🛠️ Configurar 2FA (Login)
-# Primeiro login (senha normal)
+ Primeiro login (senha normal)<br>
 
-# Vá Configurações → escaneie QR Code
+ Vá Configurações → escaneie QR Code<br>
 
-# Backup codes salvos em papel
+ Backup codes salvos em papel<br>
 
-# Próximos logins pedem código 6 dígitos
+ Próximos logins pedem código 6 dígitos<br>
 
 ## Backup Automático
 
-# https://seudominio.com/backup.php → baixa SQL atualizado
+ https://seudominio.com/backup.php → baixa SQL atualizado
 
 ## 📁 Estrutura do Projeto
 
@@ -57,8 +57,8 @@ Sistema PHP/MySQL completo com autenticação 2FA.
 -└── README.md<br>
 
 ## 🖥️ Tecnologias
-# PHP 8+ | MySQL | PDO | Bootstrap 5
-# password_hash() | Google Authenticator (2FA)
+ PHP 8+ | MySQL | PDO | Bootstrap 5<br>
+ password_hash() | Google Authenticator (2FA)<br>
 
-PHP 8+ | MySQL | PDO | Bootstrap 5
-password_hash() | Google Authenticator (2FA)
+PHP 8+ | MySQL | PDO | Bootstrap 5<br>
+password_hash() | Google Authenticator (2FA)<br>
