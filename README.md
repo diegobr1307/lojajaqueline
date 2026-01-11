@@ -72,6 +72,3 @@ lojajaqueline/                    <br>
 ## 🖥️ Tecnologias
  PHP 8+ | MySQL | PDO | Bootstrap 5<br>
  password_hash() | Google Authenticator (2FA)<br>
-
-PHP 8+ | MySQL | PDO | Bootstrap 5<br>
-password_hash() | Google Authenticator (2FA)<br>
