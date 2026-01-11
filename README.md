@@ -41,22 +41,24 @@ Sistema PHP/MySQL completo com autenticação 2FA.
 
 ## Backup Automático
 
-https://seudominio.com/backup.php → baixa SQL atualizado
+## https://seudominio.com/backup.php → baixa SQL atualizado
 
 📁 Estrutura do Projeto
-text
-lojajaqueline/
-├── public/           # Raiz do servidor web
-│   ├── index.php
-│   ├── login.php
-│   ├── backup.php
-│   └── banco_example.sql
-├── config/
-│   └── config.example.php  # COPIE para config.php
-├── src/              # Backend
-└── README.md
+
+-lojajaqueline/
+-├── public/           # Raiz do servidor web
+-│   ├── index.php
+-│   ├── login.php
+-│   ├── backup.php
+-│   └── banco_example.sql
+-├── config/
+-│   └── config.example.php  # COPIE para config.php
+-├── src/              # Backend
+-└── README.md
 
 🖥️ Tecnologias
-text
+## PHP 8+ | MySQL | PDO | Bootstrap 5
+# password_hash() | Google Authenticator (2FA)
+
 PHP 8+ | MySQL | PDO | Bootstrap 5
 password_hash() | Google Authenticator (2FA)
