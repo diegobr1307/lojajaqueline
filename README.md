@@ -11,39 +11,39 @@ Sistema PHP/MySQL completo com autenticação 2FA.
 
 ## 🚀 Deploy em 3 passos
 
-### 1. Configurar banco
+## 1. Configurar banco
 
-## 🗄️ Banco de teste incluído
+# 🗄️ Banco de teste incluído
 
-## **public/banco_example.sql**:
+# **public/banco_example.sql**:
 
-### 2. Configurar credenciais
+## 2. Configurar credenciais
 
-## **Edite** `login.php`,`config/config.php` e `backup.php`:
+# **Edite** `login.php`,`config/config.php` e `backup.php`:
 
-## $host = 'HOST'; 
-## $dbname = 'NOME_DO_BANCO';
-## $user = 'SEU_USUARIO';
-## $pass = 'SUA_SENHA_AQUI';
+# $host = 'HOST'; 
+# $dbname = 'NOME_DO_BANCO';
+# $user = 'SEU_USUARIO';
+# $pass = 'SUA_SENHA_AQUI';
 
-## Em login.php apontar servidor web
-## Document Root → /caminho/para/public/
-## https://seudominio.com/login.php
+# Em login.php apontar servidor web
+# Document Root → /caminho/para/public/
+# https://seudominio.com/login.php
 
-## 🛠️ Configurar 2FA (Login)
-## Primeiro login (senha normal)
+# 🛠️ Configurar 2FA (Login)
+# Primeiro login (senha normal)
 
-## Vá Configurações → escaneie QR Code
+# Vá Configurações → escaneie QR Code
 
-## Backup codes salvos em papel
+# Backup codes salvos em papel
 
-## Próximos logins pedem código 6 dígitos
+# Próximos logins pedem código 6 dígitos
 
 ## Backup Automático
 
-## https://seudominio.com/backup.php → baixa SQL atualizado
+# https://seudominio.com/backup.php → baixa SQL atualizado
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 -lojajaqueline/
 -├── public/           # Raiz do servidor web
@@ -56,8 +56,8 @@ Sistema PHP/MySQL completo com autenticação 2FA.
 -├── src/              # Backend
 -└── README.md
 
-🖥️ Tecnologias
-## PHP 8+ | MySQL | PDO | Bootstrap 5
+## 🖥️ Tecnologias
+# PHP 8+ | MySQL | PDO | Bootstrap 5
 # password_hash() | Google Authenticator (2FA)
 
 PHP 8+ | MySQL | PDO | Bootstrap 5
